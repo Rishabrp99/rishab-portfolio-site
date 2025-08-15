@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrishab_portfolio=self.webpackChunkrishab_portfolio||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/rishab-portfolio-site/blog","blogTitle":"Blog","authorsListPath":"/rishab-portfolio-site/blog/authors"}')}}]);
