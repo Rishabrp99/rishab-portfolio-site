@@ -213,7 +213,7 @@ export default function Home() {
               <span className="cert-icon">📚</span>
               Google: Configuration Management & the Cloud (Coursera)
             </a>
-            <a href="/certs/coursera-ml-andrewng.pdf" target="_blank" rel="noreferrer" className="cert-link">
+            <a href="/certs/coursera-ml-andrewmg.pdf" target="_blank" rel="noreferrer" className="cert-link">
               <span className="cert-icon">🤖</span>
               Stanford/Andrew Ng: Machine Learning (Coursera)
             </a>
