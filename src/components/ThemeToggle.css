@@ -1,0 +1,132 @@
+.theme-toggle-container {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle.night {
+  background: linear-gradient(135deg, #1b2735, #090a0f);
+  border: 2px solid rgba(96, 239, 255, 0.3);
+}
+
+.theme-toggle.day {
+  background: linear-gradient(135deg, #87ceeb, #98fb98);
+  border: 2px solid rgba(255, 165, 0, 0.3);
+}
+
+.toggle-track {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle.night .toggle-thumb {
+  background: linear-gradient(135deg, #60efff, #00ff87);
+  box-shadow: 0 0 20px rgba(96, 239, 255, 0.5);
+}
+
+.theme-toggle.day .toggle-thumb {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.sun-icon, .moon-icon {
+  width: 20px;
+  height: 20px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle.night .sun-icon,
+.theme-toggle.day .moon-icon {
+  color: #ffffff;
+}
+
+.theme-toggle.day .sun-icon,
+.theme-toggle.night .moon-icon {
+  color: #000000;
+}
+
+/* Animation states */
+.theme-toggle.animating {
+  animation: themePulse 1s ease-in-out;
+}
+
+.theme-toggle.animating .toggle-thumb {
+  animation: themeRotate 1s ease-in-out;
+}
+
+@keyframes themePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+@keyframes themeRotate {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .theme-toggle-container {
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .theme-toggle {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .toggle-track {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .toggle-thumb {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .sun-icon, .moon-icon {
+    width: 18px;
+    height: 18px;
+  }
+} 
