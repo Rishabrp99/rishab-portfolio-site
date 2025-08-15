@@ -13,20 +13,20 @@ export default function Home() {
         {/* Hero Section */}
         <section id="hero" className="astro-hero fade-in">
           <div className="hero-content">
-            <img src="/img/avatar.png" alt="Rishab Pandey" className="avatar" />
+            <img src="img/avatar.png" alt="Rishab Pandey" className="avatar" />
             <h1 className="astro-title">Rishab Pandey</h1>
             <p className="astro-subtitle">Software Engineer — Backend · APIs · Cloud</p>
             <div className="astro-links">
               <a href="mailto:work.rishabpandey@gmail.com" className="social-link">
-                <img src="/img/email.svg" alt="Email" /> Email
+                <img src="img/email.svg" alt="Email" /> Email
               </a>
               <a href="https://www.linkedin.com/in/rishab-pandey-8a8276184/" className="social-link">
-                <img src="/img/linkedin.svg" alt="LinkedIn" /> LinkedIn
+                <img src="img/linkedin.svg" alt="LinkedIn" /> LinkedIn
               </a>
               <a href="https://github.com/Rishabrp99" className="social-link">
-                <img src="/img/github.svg" alt="GitHub" /> GitHub
+                <img src="img/github.svg" alt="GitHub" /> GitHub
               </a>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer" className="resume-link">
+              <a href="resume.pdf" target="_blank" rel="noreferrer" className="resume-link">
                 📄 Resume
               </a>
             </div>
@@ -36,23 +36,23 @@ export default function Home() {
         {/* Quick Nav */}
         <nav className="quick-nav fade-in">
           <a href="#experience">
-            <img src="/img/experience.svg" alt="Experience" />
+            <img src="img/experience.svg" alt="Experience" />
             Experience
           </a>
           <a href="#projects">
-            <img src="/img/projects.svg" alt="Projects" />
+            <img src="img/projects.svg" alt="Projects" />
             Projects
           </a>
           <a href="#skills">
-            <img src="/img/skills.svg" alt="Skills" />
+            <img src="img/skills.svg" alt="Skills" />
             Skills
           </a>
           <a href="#leadership">
-            <img src="/img/leadership.svg" alt="Leadership" />
+            <img src="img/leadership.svg" alt="Leadership" />
             Leadership
           </a>
           <a href="#contact">
-            <img src="/img/contact.svg" alt="Contact" />
+            <img src="img/contact.svg" alt="Contact" />
             Contact
           </a>
         </nav>
@@ -60,7 +60,7 @@ export default function Home() {
         {/* Experience */}
         <section id="experience" className="section fade-in">
           <div className="section-header">
-            <img src="/img/experience.svg" alt="Experience" className="section-icon" />
+            <img src="img/experience.svg" alt="Experience" className="section-icon" />
             <h2>Experience</h2>
           </div>
 
@@ -93,14 +93,14 @@ export default function Home() {
         {/* Projects */}
         <section id="projects" className="section fade-in">
           <div className="section-header">
-            <img src="/img/projects.svg" alt="Projects" className="section-icon" />
+            <img src="img/projects.svg" alt="Projects" className="section-icon" />
             <h2>Projects</h2>
           </div>
           
           <div className="project-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="/img/project1.svg" alt="EHR Project" />
+                <img src="img/project1.svg" alt="EHR Project" />
               </div>
               <div className="project-content">
                 <h4>Electronic Health Record</h4>
@@ -110,7 +110,7 @@ export default function Home() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/img/project2.svg" alt="Fadustry App" />
+                <img src="img/project2.svg" alt="Fadustry App" />
               </div>
               <div className="project-content">
                 <h4>Fadustry</h4>
@@ -120,7 +120,7 @@ export default function Home() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/img/project3.svg" alt="Kitchen Waste Management" />
+                <img src="img/project3.svg" alt="Kitchen Waste Management" />
               </div>
               <div className="project-content">
                 <h4>Kitchen Waste Management</h4>
@@ -133,7 +133,7 @@ export default function Home() {
         {/* Skills */}
         <section id="skills" className="section fade-in">
           <div className="section-header">
-            <img src="/img/skills.svg" alt="Skills" className="section-icon" />
+            <img src="img/skills.svg" alt="Skills" className="section-icon" />
             <h2>Skills</h2>
           </div>
           
@@ -153,7 +153,7 @@ export default function Home() {
         {/* Leadership */}
         <section id="leadership" className="section fade-in">
           <div className="section-header">
-            <img src="/img/leadership.svg" alt="Leadership" className="section-icon" />
+            <img src="img/leadership.svg" alt="Leadership" className="section-icon" />
             <h2>Leadership</h2>
           </div>
           
@@ -180,7 +180,7 @@ export default function Home() {
         {/* Certificates / Achievements */}
         <section id="certificates" className="section fade-in">
           <div className="section-header">
-            <img src="/img/certificates.svg" alt="Certificates" className="section-icon" />
+            <img src="img/certificates.svg" alt="Certificates" className="section-icon" />
             <h2>Certificates & Achievements</h2>
           </div>
 
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="project-grid">
             <div className="project-card certificate-card">
               <div className="project-image">
-                <img src="/img/streak-internship.jpg" alt="Streak Internship Completion Letter" />
+                <img src="img/streak-internship.jpg" alt="Streak Internship Completion Letter" />
               </div>
               <div className="project-content">
                 <h4>Internship Completion Letter — Streak</h4>
@@ -198,7 +198,7 @@ export default function Home() {
 
             <div className="project-card certificate-card">
               <div className="project-image">
-                <img src="/img/gdsc-certificate.jpg" alt="GDSC Core Team Certificate" />
+                <img src="img/gdsc-certificate.jpg" alt="GDSC Core Team Certificate" />
               </div>
               <div className="project-content">
                 <h4>GDSC Core Team — Certificate of Appreciation</h4>
@@ -209,15 +209,15 @@ export default function Home() {
 
           {/* PDF links */}
           <div className="cert-links">
-            <a href="/certs/coursera-config-mgmt.pdf" target="_blank" rel="noreferrer" className="cert-link">
+            <a href="certs/coursera-config-mgmt.pdf" target="_blank" rel="noreferrer" className="cert-link">
               <span className="cert-icon">📚</span>
               Google: Configuration Management & the Cloud (Coursera)
             </a>
-            <a href="/certs/coursera-ml-andrewmg.pdf" target="_blank" rel="noreferrer" className="cert-link">
+            <a href="certs/coursera-ml-andrewmg.pdf" target="_blank" rel="noreferrer" className="cert-link">
               <span className="cert-icon">🤖</span>
               Stanford/Andrew Ng: Machine Learning (Coursera)
             </a>
-            <a href="/certs/coursera-automating-tasks.pdf" target="_blank" rel="noreferrer" className="cert-link">
+            <a href="certs/coursera-automating-tasks.pdf" target="_blank" rel="noreferrer" className="cert-link">
               <span className="cert-icon">⚡</span>
               Google: Automating Real-World Tasks with Python (Coursera)
             </a>
@@ -227,21 +227,21 @@ export default function Home() {
         {/* Contact */}
         <section id="contact" className="section fade-in">
           <div className="section-header">
-            <img src="/img/contact.svg" alt="Contact" className="section-icon" />
+            <img src="img/contact.svg" alt="Contact" className="section-icon" />
             <h2>Contact</h2>
           </div>
           
           <div className="contact-grid">
             <a href="mailto:work.rishabpandey@gmail.com" className="contact-item">
-              <img src="/img/email.svg" alt="Email" />
+              <img src="img/email.svg" alt="Email" />
               <span>work.rishabpandey@gmail.com</span>
             </a>
             <a href="https://www.linkedin.com/in/rishab-pandey-8a8276184/" className="contact-item">
-              <img src="/img/linkedin.svg" alt="LinkedIn" />
+              <img src="img/linkedin.svg" alt="LinkedIn" />
               <span>linkedin.com/in/rishabpandey</span>
             </a>
             <a href="https://github.com/Rishabrp99" className="contact-item">
-              <img src="/img/github.svg" alt="GitHub" />
+              <img src="img/github.svg" alt="GitHub" />
               <span>github.com/Rishabrp99</span>
             </a>
           </div>
